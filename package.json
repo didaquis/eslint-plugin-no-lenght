@@ -1,0 +1,10 @@
+{
+  "name": "no-lenght",
+  "version": "1.0.0",
+  "description": "eslint rule to prevent mistyping length",
+  "main": "no-lenght.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Iacami Gevaerd",
+  "license": "ISC"
+}
