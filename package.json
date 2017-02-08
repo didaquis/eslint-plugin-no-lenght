@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-lenght",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint rule to prevent mistyping length",
   "main": "no-lenght.js",
   "dependencies": {},
