@@ -5,8 +5,6 @@ This rule was created to prevent mistyping the length property.
 
 ## Rule Details
 
-This rule aims to prevent writing lenght instead of length
-
 Examples of **incorrect** code for this rule:
 
 ```js
@@ -21,4 +19,18 @@ Examples of **correct** code for this rule:
 
 someObj.length
 
+```
+
+## How add rule
+
+### .eslintrc example
+```
+{
+  "rules": {
+    "no-lenght/no-lenght": "error" // error, warn
+  },
+  "plugins": [
+    "no-lenght"
+  ]
+}
 ```
