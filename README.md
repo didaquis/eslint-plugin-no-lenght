@@ -26,17 +26,18 @@ someObj.length
 
 ## How to use this plugin
 
-First install this plugin: `npm i --save-dev @didaquis/eslint-plugin-no-lenght`
+**Note:** This plugin requires `eslint` in your project.
 
+1. Install this plugin: `npm install @didaquis/eslint-plugin-no-lenght --save-dev`
 
-### .eslintrc example
+2. Add this configuration on your eslintrc file:
 ```
 {
-  "rules": {
-    "no-lenght/no-lenght": "error" // error, warn
-  },
   "plugins": [
-    "no-lenght"
-  ]
+    "@didaquis/no-lenght"
+  ],
+  "rules": {
+    "@didaquis/no-lenght": "error"
+  }
 }
 ```

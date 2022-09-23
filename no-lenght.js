@@ -4,7 +4,7 @@ module.exports = {
 			create: (context) => ({
 				MemberExpression: (node) => {
 					if (node.property.name === 'lenght') {
-						context.report(node.property, 'Mistyped prop length found!');
+						context.report(node.property, 'Make sure to write correctly "length"');
 					}
 				}
 			})
