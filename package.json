@@ -7,12 +7,12 @@
   "devDependencies": {},
   "author": "Iacami Gevaerd",
   "license": "ISC",
-  "homepage": "https://github.com/enapupe/eslint-plugin-no-lenght",
+  "homepage": "https://github.com/didaquis/eslint-plugin-no-lenght",
   "repository": {
     "type": "git",
-    "url": "https://github.com/enapupe/eslint-plugin-no-lenght.git"
+    "url": "https://github.com/didaquis/eslint-plugin-no-lenght.git"
   },
   "bugs": {
-    "url": "https://github.com/enapupe/eslint-plugin-no-lenght/issues"
+    "url": "https://github.com/didaquis/eslint-plugin-no-lenght/issues"
   }
 }
