@@ -2,6 +2,9 @@
 
 This rule was created to prevent mistyping the length property.
 
+> This project is a fork of https://www.npmjs.com/package/eslint-plugin-no-lenght.  
+Original author: @enapupe
+
 
 ## Rule Details
 
