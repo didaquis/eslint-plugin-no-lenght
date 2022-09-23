@@ -1,11 +1,24 @@
 {
-  "name": "eslint-plugin-no-lenght",
+  "name": "@didaquis/eslint-plugin-no-lenght",
   "version": "1.0.3",
   "description": "eslint rule to prevent mistyping length",
   "main": "no-lenght.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "author": "Iacami Gevaerd",
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-plugin-eslint-plugin": "^5.0.6",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "author": "Dídac García",
   "license": "ISC",
   "homepage": "https://github.com/didaquis/eslint-plugin-no-lenght",
   "repository": {
