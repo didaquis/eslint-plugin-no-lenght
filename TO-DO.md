@@ -20,7 +20,10 @@ MemberExpression: () => {
 ObjectExpression: (node) => {
 	node.properties.forEach(property => {
 		if (property.key.name === 'lenght') {
-			context.report(property.key, 'Make sure to write correctly "length"');
+			context.report({
+				node: property.key,
+				message: 'Make sure to write correctly "length"',
+			});
 		}
 	});
 }
