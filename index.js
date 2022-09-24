@@ -1,4 +1,7 @@
 module.exports = {
+	meta: {
+		type: 'problem',
+	},
 	rules: {
 		'no-lenght': {
 			create: (context) => ({
