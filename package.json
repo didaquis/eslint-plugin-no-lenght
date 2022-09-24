@@ -1,6 +1,6 @@
 {
   "name": "@didaquis/eslint-plugin-no-lenght",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "eslint rule to prevent mistyping length",
   "main": "index.js",
   "scripts": {
