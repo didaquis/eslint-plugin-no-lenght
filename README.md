@@ -37,7 +37,7 @@ someObj.length
     "@didaquis/no-lenght"
   ],
   "rules": {
-    "@didaquis/no-lenght": "error"
+    "@didaquis/no-lenght/no-lenght": "error"
   }
 }
 ```
