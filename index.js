@@ -7,7 +7,6 @@ module.exports = {
 			create: (context) => ({
 				MemberExpression: (node) => {
 					if (node.property.name === 'lenght') {
-						context.report(node.property, 'Make sure to write correctly "length"');
 						context.report({
 							node: node.property,
 							message: 'Make sure to write correctly "length"',
