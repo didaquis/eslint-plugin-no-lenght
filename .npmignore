@@ -1,0 +1,6 @@
+# Use this file to keep stuff out of your package
+
+.github/
+.husky/
+HOW_TO_PUBLISH.md
+TO-DO.md
