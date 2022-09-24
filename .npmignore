@@ -2,5 +2,6 @@
 
 .github/
 .husky/
+.eslintrc.json
 HOW_TO_PUBLISH.md
 TO-DO.md
