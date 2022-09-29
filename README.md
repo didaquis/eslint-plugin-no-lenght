@@ -23,7 +23,12 @@ Many non-English speakers make the mistake of writing the word "lenght" when the
 }
 ```
 
-**Note:** This plugin requires `eslint` configured in your project.
+Available setting for the rule:
+* `"off"` - turn the rule off.
+* `"warn"` - turn the rule on as a warning (doesn’t affect exit code).
+* `"error"` - turn the rule on as an error (exit code is 1 when triggered).
+
+<br>**Note:** This plugin requires `eslint` configured in your project.
 
 
 ## Rule Details
@@ -42,8 +47,18 @@ Examples of **INCORRECT** code for this rule:
 ```js
 const fruits = [];
 
-if (fruits.lenght) {
+if (fruits.lenght) { // throws an eslint error!
   // ...
+}
+```
+```js
+const size = {
+	length: 200,
+	width: 50
+};
+
+if (size.lenght > 100) { // throws an eslint error!
+	// ...
 }
 ```
 
