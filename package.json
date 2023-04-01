@@ -12,13 +12,13 @@
     "eslintplugin"
   ],
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.15.0"
   },
   "devDependencies": {
-    "eslint": "^8.24.0",
-    "eslint-plugin-eslint-plugin": "^5.0.6",
+    "eslint": "^8.37.0",
+    "eslint-plugin-eslint-plugin": "^5.0.8",
     "eslint-plugin-node": "^11.1.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.3"
   },
   "author": "Dídac García",
   "license": "ISC",
